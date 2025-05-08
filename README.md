@@ -1,5 +1,6 @@
 ᜋᜊᜓᜑᜌ᜔!
 This project focuses on building, training, and evaluating a YOLOv8-based deep learning system for the detection and recognition of Baybayin script characters at the document level. The project involves custom dataset creation, augmentation, model training, evaluation, and post-processing to reconstruct the document’s text flow.
+
 Methods Overview
 
 Dataset Preparation
@@ -19,5 +20,18 @@ Model Evaluation
 Inference and Post-processing
   Predictions were sorted left-to-right, top-to-bottom to reconstruct document character sequences.
   Outputs were visualized and analyzed to assess real-world applicability.
+
+How to Run:
+
+Clone the repository:
+git clone <repo-url>
+cd <repo-folder>
+
+Install required packages:
+pip install ultralytics opencv-python albumentations matplotlib
+
+Run the training notebook and inference.
+
+For any questions, reach out to diazfranzjosef@gmail.com
 
 ᜐᜎᜋᜆ᜔
